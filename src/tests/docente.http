@@ -1,0 +1,32 @@
+GET http://localhost:4001/docente
+
+####
+
+GET http://localhost:4001/docente/2
+
+####
+
+POST http://localhost:4001/docente
+Content-Type: application/json
+
+{
+    "name": "Docente 2",
+    "email": "docente2@docente.com",
+    "code": "202"
+}
+
+###
+
+PUT http://localhost:4001/docente
+Content-Type: application/json
+
+{
+    "id": 4,
+    "name": "Docente 4",
+    "email": "docente4-actualizado@docente.com",
+    "code": "204"
+}
+
+####
+
+DELETE http://localhost:4001/docente/3

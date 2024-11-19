@@ -1,0 +1,28 @@
+GET http://localhost:4001/carrera
+
+####
+
+GET http://localhost:4001/carrera/3
+
+####
+
+POST http://localhost:4001/carrera
+Content-Type: application/json
+
+{
+        "nombre": "Derecho"
+}
+
+###
+
+PUT http://localhost:4001/carrera
+Content-Type: application/json
+
+{
+        "id": 3,
+        "nombre": "Derecho y Ciencias Políticas"
+}
+
+####
+
+DELETE http://localhost:4001/carrera

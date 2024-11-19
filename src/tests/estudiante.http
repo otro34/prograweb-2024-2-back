@@ -1,0 +1,36 @@
+GET http://localhost:4001/estudiante
+
+####
+
+GET http://localhost:4001/estudiante/4
+
+####
+
+POST http://localhost:4001/estudiante
+Content-Type: application/json
+
+{
+    "name": "Estudiante 3",
+    "lastName": "Apellido 3",
+    "email": "estudiante3@estudiante.com",
+    "code": "103",
+    "idCarrera": 2
+}
+
+###
+
+PUT http://localhost:4001/estudiante
+Content-Type: application/json
+
+{
+    "id": 4,
+    "name": "Estudiante 4",
+    "lastName": "Apellido 4",
+    "email": "estudiante4@estudiante-actualizado.com",
+    "code": "104",
+    "idCarrera": 2
+}
+
+####
+
+DELETE http://localhost:4001/estudiante/3
