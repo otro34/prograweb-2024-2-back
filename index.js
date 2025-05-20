@@ -14,10 +14,6 @@ async function main () {
 
         console.log('Database synchronized');
 
-        app.listen(4001,() => {
-            console.log('Server is running on port 4001');
-        })
-
 
     } catch(error) {
         console.error(error);
