@@ -1,9 +1,9 @@
 import Sequelize from "sequelize";
 
-const hostname = 'prograweb-20242-bd.postgres.database.azure.com';
+const hostname = 'prograweb-bd-jcromaina-2025-1.postgres.database.azure.com';
 const username = 'postgres';
 const password = 'Administrador!';
-const database = 'matricula'
+const database = 'test'
 const port = 5432;
 const dialect = 'postgres';
 
